@@ -1,0 +1,70 @@
+/* local */
+.hidden	{ display: none; }
+.page-box .page-body {margin-left:0; width:990px;}
+.fullCart-landing   {padding:15px; margin-bottom:20px; clear:both;}
+.fullCart-landing .fullCart-items { position:relative; overflow:hidden;   }
+.fullCart-landing .fullCart-items .fullCart-items-include { border:1px #ccc solid; color:#333;	 }
+.fullCart-landing div.hdrDiv {clear:both;}
+.fullCart-landing div.hdrDiv.emptyCart {border:1px solid #ccc; margin-bottom:20px;}
+.fullCart-landing div.hdrDiv.emptyCart .emptyCartMsg {padding: 10px; color:#666666;	 font-size:12px; }	
+.fullCart-landing .titleDiv  {background-color:#f2f2f2; /*EBEBEB*/ border-bottom:1px solid #ccc; 
+	padding:10px 13px 7px 13px; font-weight:bold; clear:both; overflow:hidden; } 
+.fullCart-landing .titleDiv .pgName {font-size:16px; color:#333333; display:block; padding-top:6px; }	
+.fullCart-landing .promoDiv { text-align:center; background-color:#FFF3E3; padding:15px; font-weight:bold; font-size:15px; color:#333333;  border-bottom:1px #ccc solid;}
+.fullCart-landing .continueChechoutDiv {  
+  background-color:#FFF;font-size:10px; color:#666; padding:10px; clear:both; overflow:hidden;}
+.fullCart-landing .continueChechoutDiv div.text {  width:375px;  font-style:italic;  }
+.fullCart-landing .continueChechoutDiv div.text li.estTaxTxt {padding-bottom:8px; }
+.fullCart-landing .fullCart-items .promoDiv a:link, .fullCart-landing .fullCart-items .promoDiv a:hover, .fullCart-landing .fullCart-items .promoDiv a:visited { font-size:11px; color:#5A7D56; text-decoration:underline; font-weight:normal;}
+.fullCart-landing .promoDiv span {	color:#CC6633;	}
+.fullCart-landing .promoDiv span.amount {	color:#990000;	}	
+
+.fullCart-landing .fullCart-items a, .fullCart-landing .fullCart-items a:visited
+	{ font-size:10px; color:#5A7D56; text-decoration:none; font-weight:normal;}	 
+.fullCart-landing .fullCart-items a:hover {  text-decoration:underline;  }	
+
+.fullCart-landing .safeShopping a, .fullCart-landing .safeShopping a:visited, .fullCart-landing .safeShopping a:hover, 
+.fullCart-landing a.removeCoupon, .fullCart-landing a.removeCoupon:visited, .fullCart-landing a.removeCoupon:hover,
+.fullCart-landing .couponCode a, .fullCart-landing .couponCode a:visited, .fullCart-landing .couponCode a:hover
+{ font-size:10px; color:#5A7D56; text-decoration:underline; font-weight:normal;}	
+
+.fullCart-landing .itemRow { clear:both; overflow:hidden;  width: 958px; border-bottom:1px #ccc solid;    }	
+.fullCart-landing .itemRow .itemRowContent {  padding: 10px;   }
+.fullCart-landing .itemRow.hdr .itemRowContent {	padding: 5px 10px 15px 10px; font-weight:bold; font-size:10px;}	
+.fullCart-landing .itemRow .thumbnail {	float:left; padding: 0 0 10px 0; width:105px; }	
+.fullCart-landing .itemRow .itemDetails { float:left;width:135px;  }
+.fullCart-landing .itemRow .itemDetailsDiv {overflow:hidden; } 
+.fullCart-landing .itemRow .itemDetails ul { padding-bottom: 10px;  }	
+
+.fullCart-landing .itemRow .itemDetails productName, 
+.fullCart-landing .itemRow .itemDetails a.productName:link, 
+.fullCart-landing .itemRow .itemDetails a.productName:visited, 
+.fullCart-landing .itemRow .itemDetails a.productName:hover {font-size:11px; text-decoration:none; }	
+
+.fullCart-landing .itemRow li  {line-height:16px;}
+.fullCart-landing .itemRow li.lineSpacer  {line-height:10px;}
+.fullCart-landing .itemRow .itemDetails li.fmtDesc {padding:10px 0 ; line-height:10px;}
+.fullCart-landing .itemRow .itemDetails li.delMsg {font-size:10px; color:#666;} 
+
+.fullCart-landing .itemRow .itemDetails li span.itemPromo   { float:left; 
+/* border: 1px dotted #CCC; border-left:0;border-right:0;  min-width:200px; text-align:center; */  
+	padding-top:10px; margin:10px 0; border-top: 1px solid #CCC;  min-width:240px; } 
+ 
+.fullCart-landing .itemRow .itemDetails li span.itemPromo a.itemPromoLink:link, 
+.fullCart-landing .itemRow .itemDetails li span.itemPromo a.itemPromoLink:visited 
+   {font-size:11px; font-weight:bold; text-decoration:none; color:#CC6633; 
+	background-image: url('/presources/images/fullCart/carot_orange.gif');
+	background-repeat: no-repeat;
+	background-position:0px 3px;
+	padding:0 5px 0 10px;
+	}  
+.fullCart-landing .itemRow .itemDetails a:link, 
+.fullCart-landing .itemRow .itemDetails a:visited  
+{ font-weight:normal;font-size:10px; text-decoration:underline; color:#5A7D56;}
+ 
+.fullCart-landing .itemRow .itemColRight {float:right; width:690px;}
+.fullCart-landing .itemRow .itemAction {margin-right:500px; }
+.fullCart-landing .itemRow .itemPrice {float:right; width:200px; }
+.fullCart-landing .itemRow .itemPrice .itemAmt, .fullCart-landing .summaryRight	.itemAmt {font-size:12px; font-weight:bold; color:#333333; } 	
+.fullCart-landing .itemRow .itemPrice li.lineItemDiscount { padding-top:6px; }
+ 

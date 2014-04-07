@@ -1,0 +1,10 @@
+BN_YUI.Env._loader.data = ["event-formreset"];
+/*[/js-min/core/event-formreset.js]*/
+YUI.add("event-formreset",function(a){a.Event.define("formreset",{on:function(e,d,c){var b=e.get("form")||e.ancestor(function(f){return f.get("nodeName")==="FORM"
+});
+if(b){d._handle=b.on("reset",function(f){window.setTimeout(function(){c.fire(f)
+},50)
+},this)
+}},detach:function(d,c,b){if(c._handle){c._handle.detach()
+}}})
+},"@VERSION@",{requires:["node-core","event-base","event-synthetic"]});
